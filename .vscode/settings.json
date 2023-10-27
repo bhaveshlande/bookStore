@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    "files.autoSave": "onWindowChange",
+    "editor.scrollbar.scrollByPage": true,
+    "editor.smoothScrolling": true,
+    "editor.stickyScroll.enabled": true,
+    "workbench.list.scrollByPage": true,
+    "terminal.integrated.smoothScrolling": true
+}
