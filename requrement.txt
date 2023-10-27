@@ -2,6 +2,9 @@ to execute
 1] start json server
 
    json-server --watch data/db.json --port 8000
+or 
+1] //json-server-auth and json server both start server
+   json-server data/db.json -m ./node_modules/json-server-auth --port 8000
 
 2] npm start
 
@@ -18,7 +21,7 @@ git push -u origin main
 
 
 git add .
-git commit -m "second commit"
+git commit -m "filtering menu for product list completed"
 git branch -M main
 git push -u origin main
 
