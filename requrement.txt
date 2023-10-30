@@ -4,7 +4,7 @@ to execute
    json-server --watch data/db.json --port 8000
 or 
 1] //json-server-auth and json server both start server
-   json-server data/db.json -m ./node_modules/json-server-auth --port 8000
+   json-server data/db.json -m ./node_modules/json-server-auth -r data/routes.json --port 8000
 
 2] npm start
 
