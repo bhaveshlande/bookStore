@@ -21,7 +21,7 @@ git push -u origin main
 
 
 git add .
-git commit -m "filtering menu for product list completed"
+git commit -m "all use titles updated,errors removed,works fine upto"
 git branch -M main
 git push -u origin main
 
