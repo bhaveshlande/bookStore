@@ -2,11 +2,13 @@ import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { login } from "../services";
+import { useTitle } from "../hooks/useTitle";
+
 export const Login = () => {
   const navigate = useNavigate();
   const email = useRef();
   const password = useRef();
-
+  useTitle("login");
   async function handleLogin(event) {
     event.preventDefault();
     const authDetail = {

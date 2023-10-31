@@ -10,7 +10,8 @@ export const DropdownLoggedIn = ({ setDropdown }) => {
       data.email ? setUser(data) : handleLogout();
     }
     fetchData();
-  }, [handleLogout]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   function handleLogout() {
     logout();

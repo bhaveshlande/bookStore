@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { useCart } from "../../../context";
 import { useNavigate } from "react-router-dom";
+import { useCart } from "../../../context";
 import { createOrder, getUser } from "../../../services";
 export const Checkout = ({ setCheckout }) => {
   const { cartList, total, clearCart } = useCart();

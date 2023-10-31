@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-import { DashboardCard } from "./Components/DashboardCard";
-import { DashboardEmpty } from "./Components/DashboardEmpty";
+import { DashboardCard } from "./components/DashboardCard";
+import { DashboardEmpty } from "./components/DashboardEmpty";
 import { getUserOrders } from "../../services";
-
+import { useTitle } from "../../hooks/useTitle";
 export const DashboardPage = () => {
   const [orders, setOrders] = useState([]);
+  useTitle("Order History Dashboard");
 
   useEffect(() => {
     async function fetchOrders() {

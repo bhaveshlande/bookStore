@@ -1,14 +1,14 @@
-import { Routes, Route } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import {
-  HomePage,
-  ProductsList,
-  ProductDetail,
-  Login,
-  Register,
   CartPage,
-  OrderPage,
   DashboardPage,
+  HomePage,
+  Login,
+  OrderPage,
   PageNotFound,
+  ProductDetail,
+  ProductsList,
+  Register,
 } from "../pages";
 import { ProtectedRoutes } from "./ProtectedRoutes";
 

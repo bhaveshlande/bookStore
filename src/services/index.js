@@ -1,3 +1,3 @@
-export { login, register, logout } from "./authService";
+export { login, logout, register } from "./authService";
 export { createOrder, getUser, getUserOrders } from "./dataService";
-export { getProductList, getProduct, getFeaturedList } from "./productService";
+export { getFeaturedList, getProduct, getProductList } from "./productService";
