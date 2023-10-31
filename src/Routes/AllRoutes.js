@@ -10,6 +10,7 @@ import {
   ProductsList,
   Register,
 } from "../pages";
+
 import { ProtectedRoute } from "./ProtectedRoute";
 
 export const AllRoutes = () => {
