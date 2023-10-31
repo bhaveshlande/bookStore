@@ -28,8 +28,10 @@ export const Login = () => {
   }
 
   async function handleLoginGuest() {
-    email.current.value = process.env.REACT_APP_GUEST_LOGIN;
-    password.current.value = process.env.REACT_APP_GUEST_PASSWORD;
+    const emailDemo = process.env.REACT_APP_GUEST_LOGIN;
+    const passwordDemo = process.env.REACT_APP_GUEST_PASSWORD;
+    email.current.value = emailDemo;
+    password.current.value = passwordDemo;
     try {
       const authDetail = {
         email: email.current.value,

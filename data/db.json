@@ -296,6 +296,12 @@
       "password": "$2a$10$nzsI2pp4BABUIBWqT07U/O4n/Cd1NdHA15fjPIyLvdeV/6yTODWPq",
       "name": "bhavesh lande",
       "id": 1
+    },
+    {
+      "email": "guestaccount@gmail.com",
+      "password": "$2a$10$Kl8l/Dxk87ozfq34dHXQletgk3.jTdS0LQlFFqI7dXMu2NbsDh1om",
+      "name": "guest",
+      "id": 2
     }
   ]
 }
